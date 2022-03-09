@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html"><img src="imagenes/logo.jpg" id="img1"></a>
+            <nav>
+                <ul class="lista_horizontal">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="inicio">
+        <article style="width: 683px;">
+            <h1>Calculadora de Indice de Masa Corporal</h1>
+            <form>
+                <label for="nombre">Ingrese su altura:</label>
+                <input type="text" id="altura"/><br>
+                <label for="nombre">Ingrese su peso:</label>
+                <input type="text" id="peso"/><br>
+                <button type="button" id="boton" onclick="clickBoton()">Calcular</button>
+                <h1 id="result"></h1>
+                <h1 id="resp"></h1>
+            </form>
+        </article>
+        <div style="width: 100%;">
+            <img src="imagenes/imc.png" width="900px" height="700px" style="float: right;">
+        </div>
+    </main>
+    <footer>
+        <div class="footer" id="footer"> 
+            <div class="box_footer">
+                <h2>Contacto</h2>
+                <a href="#"><i class="fab fa-facebook-square"></i>Javier Wan Zhu</a>
+                <a href="#"><i class="fab fa-twitter-square"></i>@WanJavier</a>
+                <a href="#"><i class="fab fa-instagram-square"></i>@javwan18</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

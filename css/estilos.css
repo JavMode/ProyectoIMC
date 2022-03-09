@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #292929;
+    font-family: "calibri";
+}
+header{
+    background: #0582ca;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.menu img{
+    width: 120px;
+    height: 70px;
+    float: left;
+    padding: 8px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color:#003554;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    opacity: 0.8;
+    
+}
+.lista_vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+.lista_horizontal li:hover .lista_vertical{
+    display: block;
+}
+.lista_vertical li:hover{
+    background-color: #80a1d4;
+}
+.lista_vertical li a{
+    display:block;
+    color:white;
+    padding: 10px 10px 10px 0px;
+}
+main{
+    width: 100%;
+    background: red;
+}
+.inicio article{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.inicio article p{
+    padding: 10px;
+}
+article{
+    width: 75%;
+    background: #006494;
+    height: 700px;
+    float: left;
+    color:white;
+}
+article h1{
+    text-align: center;
+    margin: 10px;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+aside{
+    width: 25%;
+    height: 700px;
+    background: skyblue;
+    float: left;
+}
+aside h2{
+    text-align: center;
+    margin: 30px;
+}
+aside a{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    padding: 100px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    padding: 0px 0px;
+    background: #003554;
+    background-size: cover;
+    float: left;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin:auto;
+}
+.box_footer{
+    display:inline;
+    flex-direction: column;
+}
+.box_footer h2{
+    color:#0582ca;
+    font-weight: 700;
+}
+.box_footer a{
+    color:#0582ca;
+    font-weight: 600;
+    padding: 10px;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_footer a .fab{
+    font-size: 20px;
+}
